@@ -1,16 +1,15 @@
 
 
 body{
-	width: 80%;
+	width: 90%;
+	margin: 0 auto;
 	font-family: arial;
-	padding: 10px;
 	background-color: rgb(105,105,105);}
 
 p{
-	padding: 20px;}
+	padding: margin 1%;}
 
 #header{
-	position: relative;
 	top: 10px;
 	left: 50%;
 	border: 5px solid #a9a9a9;
@@ -32,8 +31,7 @@ p{
 	border: 5px solid #a9a9a9;
 	width: 40%;
 	float:left;
-	margin: 10px;
-	padding: 20px;
+	margin: 1%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
@@ -41,9 +39,8 @@ p{
 #topright, #botright{
 	border: 5px solid #a9a9a9;
 	width: 40%;
-	float: right;
-	margin: 10px;
-	padding: 20px;
+	float: left;
+	margin: 1%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
