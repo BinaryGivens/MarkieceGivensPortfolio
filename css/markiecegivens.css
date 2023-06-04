@@ -1,22 +1,74 @@
+
+
+body{
+
+	font-family: arial;
+	background-color: rgb(105,105,105);}
+
 #header{
-	border: 5px solid #ee3e80;
+	border: 5px solid #a9a9a9;
 	padding: 20px;
-	width: 275px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
-
-
-
-
-
 
 
 #infosection{
-	border: 5px solid #ee3e80;
+	border: 5px solid #a9a9a9;
 	padding: 20px;
-	width: 275px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
+#topleft{
+	border: 5px solid #a9a9a9;
+	width: 450px;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+#topright{
+	border: 5px solid #a9a9a9;
+	width: 450px;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+#botleft{
+	border: 5px solid #a9a9a9;
+	width: 450px;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+#botright{
+	border: 5px solid #a9a9a9;
+	width: 450px;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
