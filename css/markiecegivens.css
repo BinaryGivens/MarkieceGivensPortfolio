@@ -6,7 +6,13 @@ body{
 	padding: 10px;
 	background-color: rgb(105,105,105);}
 
+p{
+	padding: 20px;}
+
 #header{
+	position: relative;
+	top: 10px;
+	left: 50%;
 	border: 5px solid #a9a9a9;
 	padding: 20px;
 	margin: 30px
@@ -16,6 +22,7 @@ body{
 
 
 #infosection{
+	left: 50%;
 	border: 5px solid #a9a9a9;
 	padding: 20px;
 	border-radius: 10px;
@@ -24,6 +31,7 @@ body{
 #topleft, #botleft{
 	border: 5px solid #a9a9a9;
 	width: 40%;
+	float:left;
 	margin: 10px;
 	padding: 20px;
 	border-radius: 10px;
@@ -33,13 +41,15 @@ body{
 #topright, #botright{
 	border: 5px solid #a9a9a9;
 	width: 40%;
+	float: right;
 	margin: 10px;
 	padding: 20px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
 
-
+.clear{
+	clear: both;}
 
 
 
