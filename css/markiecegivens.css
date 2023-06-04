@@ -6,45 +6,41 @@ body{
 	font-family: arial;
 	background-color: rgb(105,105,105);}
 
-p{
-	padding: margin 1%;}
-
 #header{
-	top: 1%;
 	left: 25%;
-	border: .5% solid #a9a9a9;
-	padding: 2%;
-	margin: 3%;
+	border: 2px solid #a9a9a9;
+	padding: 5%;
+	margin: 5%;
 	border-radius: 1%;
-	-moz-border-radius: 1%;
-	-webkit-border-radius: 1%;}
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;}
 
 
 #infosection{
 	left: 25%;
-	border: .5% solid #a9a9a9;
-	padding: 2%;
-	border-radius: 1%;
-	-moz-border-radius: 1%;
-	-webkit-border-radius: 1%;}
+	border: 2px solid #a9a9a9;
+	padding: 5%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;}
 .column1, .column2{
-	border: 5px solid #a9a9a9;
+	border: 2px solid #a9a9a9;
 	width: 46.95%;
 	float:left;
-	margin: 1%;
+	margin: 5%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
 
 .column2{ margin-right: 0%;}
 .column3, .column4{
-	border: .5% solid #a9a9a9;
+	border: 2px solid #a9a9a9;
 	width: 46.95%;
 	float: left;
-	margin: 1%;
-	border-radius: 1%;
-	-moz-border-radius: 1%;
-	-webkit-border-radius: 1%;}
+	margin: 5%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;}
 .column4{margin-right: 0%;}
 
 
