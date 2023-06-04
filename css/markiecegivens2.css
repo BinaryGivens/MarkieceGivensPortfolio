@@ -1,27 +1,13 @@
 body{
-	width: 960px;
+	width: 860px;
 	margin: 0 auto;}
 
 
-
-
-#header{
-
-	}
-
-
-
-
-#infosection{
-}
-
 #topleft, #botleft{
-	float: left;
-	margin: 10px;}
+	float: left;}
 
 #topright, #botright{
-	float:right;
-	margin:10px;}
+	float: right;}
 
 
 
