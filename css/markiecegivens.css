@@ -1,7 +1,7 @@
 
 
 body{
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 	font-family: arial;
 	background-color: rgb(105,105,105);}
@@ -10,14 +10,14 @@ body{
 	left: 25%;
 	border: 2px solid #a9a9a9;
 	padding: 5%;
-	margin: 10%;
+	margin: 3%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
 
 
 #infosection{
-	margin: 10%;
+	margin: 3%;
 	left: 25%;
 	border: 2px solid #a9a9a9;
 	padding: 5%;
