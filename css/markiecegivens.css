@@ -27,6 +27,7 @@ body{
 	-webkit-border-radius: 10px;}
 
 .column1, .column2{
+	float: left;
 	border: 2px solid rgb(40,40,40);
 	width: 47%;
 	background-color: rgb(40,40,40);
@@ -34,6 +35,7 @@ body{
 	border-radius: 10px;}
 
 .column3, .column4{
+	float: left;
 	border: 2px solid rgb(40,40,40);
 	width: 47%;
 	padding: 5%;
