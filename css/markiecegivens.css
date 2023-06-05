@@ -14,8 +14,7 @@ body{
 	margin: 3%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	height: 90px;}
+	-webkit-border-radius: 10px;}
 
 
 #pic {
@@ -32,8 +31,7 @@ body{
 	background-color: rgb(40,40,40);
 	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	height: 600px;}
+	-webkit-border-radius: 10px;}
 
 .column1, .column2{
 	float: left;
@@ -44,8 +42,7 @@ body{
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	margin: 2%;
-	height: 100px;}
+	margin: 2%;}
 
 
 
@@ -58,8 +55,7 @@ body{
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	margin: 2%;
-	height: 100px;}
+	margin: 2%;}
 
 
 
