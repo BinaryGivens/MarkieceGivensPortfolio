@@ -22,6 +22,15 @@ img.align-right, #personalinfo{
 	float: left;
 	margin-right: 2%;}
 
+#major1, #major2{
+	border: 2px solid rgb(80,80,80);
+	padding: 2%;
+	bakground-color: rgb(40,40,40);
+	margin: 2%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;}
+
 #infosection{
 	margin: 2%;
 	border: 2px solid rgb(40,40,40);
