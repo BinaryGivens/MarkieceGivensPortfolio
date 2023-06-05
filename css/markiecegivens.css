@@ -1,48 +1,35 @@
 
 
 body{
-	color: rgb(255,255,255);
+	color: rgb(185,185,185);
 	width: 95%;
 	margin: 0 auto;
 	font-family: arial;
 	background-color: rgb(0,0,0);}
 
 #header{
-	left: 25%;
 	border: 2px solid #a9a9a9;
 	padding: 5%;
-	margin: 4%;
+	background-color: rgb(40,40,40)
+	margin: 3%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
 
 
 #infosection{
-	margin: 2%;
-	left: 25%;
+	margin: 3%;
 	border: 2px solid #a9a9a9;
 	padding: 5%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
 
-.column1, .column2{
-	border: 2px solid #a9a9a9;
-	width: 30%;
-	float:left;
-	padding: 5%;
-	border-radius: 10px;
-	clear: left;}
-
-.column2{ margin-right: 0%;}
-.column3, .column4{
+.article{
 	border: 2px solid #a9a9a9;
 	width: 30%;
 	padding: 5%;
-	float: left;
-	border-radius: 10px;
-	clear: left;}
-.column4{margin-right: 0%;}
+	border-radius: 10px;}
 
 
 
