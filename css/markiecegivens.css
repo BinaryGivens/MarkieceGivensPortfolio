@@ -17,6 +17,9 @@ body{
 	-webkit-border-radius: 10px;
 	height: 90px;}
 
+
+#pic {
+	float:left;}
 #pic1, #personalinfo{
 	float:left;}
 
@@ -30,11 +33,11 @@ body{
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	height: 560px;}
+	height: 600px;}
 
 .column1, .column2{
 	float: left;
-	border: 2px solid rgb(40,40,40);
+	border: 2px solid rgb(80,80,80);
 	width: 300px;
 	background-color: rgb(40,40,40);
 	padding: 30px;
@@ -48,7 +51,7 @@ body{
 
 .column3, .column4{
 	float: left;
-	border: 2px solid rgb(40,40,40);
+	border: 2px solid rgb(80,80,80);
 	width: 300px;
 	padding: 30px;
 	background-color: rgb(40,40,40);
