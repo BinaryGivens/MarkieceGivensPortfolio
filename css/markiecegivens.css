@@ -14,11 +14,11 @@ body{
 	margin: 3%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;}
-#pic1{
+	-webkit-border-radius: 10px;
+	height: 90px;}
+
+#pic1, #personalinfo{
 	float:left;}
-#personalinfo{
-	float:center;}
 
 
 
@@ -29,29 +29,34 @@ body{
 	background-color: rgb(40,40,40);
 	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;}
+	-webkit-border-radius: 10px;
+	height: 560px;}
 
 .column1, .column2{
 	float: left;
 	border: 2px solid rgb(40,40,40);
-	width: 47%;
+	width: 300px;
 	background-color: rgb(40,40,40);
-	padding: 5%;
+	padding: 30px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;}
+	-webkit-border-radius: 10px;
+	margin: 2%;
+	height: 100px;}
 
 
 
 .column3, .column4{
 	float: left;
 	border: 2px solid rgb(40,40,40);
-	width: 47%;
-	padding: 5%;
+	width: 300px;
+	padding: 30px;
 	background-color: rgb(40,40,40);
 	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;}
+	-webkit-border-radius: 10px;
+	margin: 2%;
+	height: 100px;}
 
 
 
