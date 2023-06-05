@@ -8,7 +8,7 @@ body{
 	background-color: rgb(0,0,0);}
 
 #header{
-	border: 2px solid #a9a9a9;
+	border: 2px solid rgb(40,40,40);
 	padding: 5%;
 	background-color: rgb(40,40,40);
 	margin: 3%;
@@ -19,18 +19,26 @@ body{
 
 #infosection{
 	margin: 3%;
-	border: 2px solid #a9a9a9;
+	border: 2px solid rgb(40,40,40);
 	padding: 5%;
+	background-color: rgb(40,40,40);
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
 
-.article{
-	border: 2px solid #a9a9a9;
-	width: 30%;
+.column1, .column2{
+	border: 2px solid rgb(40,40,40);
+	width: 47%;
+	background-color: rgb(40,40,40);
 	padding: 5%;
 	border-radius: 10px;}
 
+.column3, .column4{
+	border: 2px solid rgb(40,40,40);
+	width: 47%;
+	padding: 5%;
+	background-color: rgb(40,40,40);
+	border-radius: 10px;}
 
 
 
