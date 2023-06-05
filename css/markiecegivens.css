@@ -32,7 +32,11 @@ body{
 	width: 47%;
 	background-color: rgb(40,40,40);
 	padding: 5%;
-	border-radius: 10px;}
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;}
+
+
 
 .column3, .column4{
 	float: left;
@@ -40,7 +44,11 @@ body{
 	width: 47%;
 	padding: 5%;
 	background-color: rgb(40,40,40);
-	border-radius: 10px;}
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;}
+
+
 
 
 
