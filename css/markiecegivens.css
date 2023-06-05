@@ -20,9 +20,6 @@ body{
 img.align-right, #personalinfo{
 	float: left;
 	margin-right: 2%;}
-img.medium{
-	width: 50px;
-	height: 50px;}
 
 #infosection{
 	margin: 2%;
