@@ -17,12 +17,12 @@ body{
 	-webkit-border-radius: 10px;}
 
 
-#pic {
-	float:left;}
-#pic1, #personalinfo{
-	float:left;}
-
-
+img.align-right, #personalinfo{
+	float: left;
+	margin-right: 2%;}
+img.medium{
+	width: 100px;
+	height: 100px;}
 
 #infosection{
 	margin: 2%;
