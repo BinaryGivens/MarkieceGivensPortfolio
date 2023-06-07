@@ -2,14 +2,14 @@
 
 body{
 	color: rgb(185,185,185);
-	width: 98%;
+	width: 95%;
 	margin: 0 auto;
 	font-family: arial;
 	background-color: rgb(0,0,0);}
 
 #header{
 	border: 2px solid rgb(40,40,40);
-	padding: 5%;
+	padding: 2%;
 	background-color: rgb(40,40,40);
 	margin: 2%;
 	border-radius: 25px;
@@ -34,7 +34,7 @@ p.major1, p.major2{
 #infosection{
 	margin: 2%;
 	border: 2px solid rgb(40,40,40);
-	padding: 5%;
+	padding: 2%;
 	background-color: rgb(40,40,40);
 	border-radius: 25px;
 	-moz-border-radius: 25px;
