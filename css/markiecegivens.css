@@ -33,6 +33,9 @@ p.major1, p.major2{
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;}
+p.name{
+	margin-top: 1%;
+	margin-bottom: 1.5%;}
 
 #infosection{
 	margin: 2%;
