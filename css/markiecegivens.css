@@ -9,7 +9,7 @@ body{
 
 #header{
 	border: 2px solid rgb(40,40,40);
-	padding: 2%;
+	padding: 1%;
 	background-color: rgb(40,40,40);
 	margin: 2%;
 	border-radius: 25px;
@@ -19,7 +19,8 @@ body{
 
 img.align-right{
 	margin-top: 1.5%;
-	margin-bottom: 2%; }
+	margin-bottom: 1.5%;
+	margin-left:1.5%}
 	
 img.align-right, #personalinfo{
 	float: left;
