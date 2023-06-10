@@ -9,7 +9,7 @@ body{
 
 #header{
 	border: 2px solid rgb(40,40,40);
-	padding: 1%;
+	padding: 2%;
 	background-color: rgb(40,40,40);
 	margin: 2%;
 	border-radius: 25px;
@@ -18,7 +18,7 @@ body{
 	overflow: auto;}
 
 img.align-right{
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-bottom: 2%; }
 	
 img.align-right, #personalinfo{
