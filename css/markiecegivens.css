@@ -46,7 +46,7 @@ p.major1, p.major2{
 	border: 2px solid rgb(80,80,80);
 	width: 35%;
 	background-color: rgb(40,40,40);
-	padding: 30px;
+	padding: 2%;
 	border-radius: 25px;
 	-moz-border-radius: 25px;
 	-webkit-border-radius: 25px;
@@ -59,7 +59,7 @@ p.major1, p.major2{
 	float: left;
 	border: 2px solid rgb(80,80,80);
 	width: 35%;
-	padding: 30px;
+	padding: 2%;
 	background-color: rgb(40,40,40);
 	border-radius: 10px;
 	-moz-border-radius: 10px;
