@@ -47,9 +47,9 @@ p.major1, p.major2{
 	width: 40%;
 	background-color: rgb(40,40,40);
 	padding: 2%;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
 	margin: 2%;
 	overflow: auto;}
 
@@ -61,9 +61,9 @@ p.major1, p.major2{
 	width: 40%;
 	padding: 2%;
 	background-color: rgb(40,40,40);
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
 	margin: 2%;
 	overflow: auto;}
 
