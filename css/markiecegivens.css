@@ -44,12 +44,12 @@ p.major1, p.major2{
 .column1, .column2{
 	float: left;
 	border: 2px solid rgb(80,80,80);
-	width: 35%;
+	width: 40%;
 	background-color: rgb(40,40,40);
 	padding: 2%;
-	border-radius: 25px;
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	margin: 2%;
 	overflow: auto;}
 
@@ -58,7 +58,7 @@ p.major1, p.major2{
 .column3, .column4{
 	float: left;
 	border: 2px solid rgb(80,80,80);
-	width: 35%;
+	width: 40%;
 	padding: 2%;
 	background-color: rgb(40,40,40);
 	border-radius: 10px;
