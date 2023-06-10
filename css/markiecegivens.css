@@ -11,13 +11,17 @@ body{
 	border: 2px solid rgb(40,40,40);
 	padding: 2%;
 	background-color: rgb(40,40,40);
+
 	margin: 2%;
 	border-radius: 25px;
 	-moz-border-radius: 25px;
 	-webkit-border-radius: 25px;
 	overflow: auto;}
 
-
+img.align-right{
+	margin-top: 2%;
+	margin-bottom: 2%; }
+	
 img.align-right, #personalinfo{
 	float: left;
 	margin-right: 2%;}
