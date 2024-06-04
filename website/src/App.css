@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+.home,
+.aboutme,
+.resume,
+.contact {
+  display: flex;
+  height: 140vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+/* ABOUT ME SECTION */
+.aboutme{
+  background-image: url('../public/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* RESUME SECTION */
+.resume-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures the container takes at least the full height of the viewport */
+  padding: 20px;
+  text-align: center;
+  overflow: hidden; /* Ensure the particles don't overflow */
+}
+
+.resume-pdf {
+  margin-top: 20px;
+  background: white; /* Ensures the PDF area has a white background */
+  padding: 20px; /* Optional: Padding around the PDF */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+  z-index: 1; /* Ensure it is above the Particle component */
+}
+
+.resume-desc {
+  text-align: center;
+  margin-bottom: 20px;
+  z-index: 1; /* Ensure it is above the Particle component */
+}
+
+.particle-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure it is behind the resume content */
+}
+.res-btn {
+  color:black;
+  margin-top: 20px;
+  
+}
+
+/* CONTACT SECTION */
+.contact {
+  background-image: url('../public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
