@@ -24,6 +24,9 @@ name: Configure AWS Credentials
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: 'us-east-1'
 
+- name: Install AWS CLI
+        run: sudo apt-get install -y awscli
+        # This step ensures that the AWS CLI is installed on the runner.
       
 - name: Update S3 bucket with new site contents
         run: aws s3 sync build/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
