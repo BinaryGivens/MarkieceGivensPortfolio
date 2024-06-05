@@ -25,14 +25,16 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        # This step installs the dependencies required for your project. Adjust according to your package manager and project.
+        working-directory: ./website
+        # This step installs the dependencies required for your project from the website directory.
 
       - name: Build Project
         run: npm run build
-        # This step runs the build script for your project. Adjust according to your build script.
+        working-directory: ./website
+        # This step runs the build script for your project from the website directory.
 
       - name: Update S3 bucket with new site contents
-        run: aws s3 sync build/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
+        run: aws s3 sync ./website/build/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
         # This step syncs the contents of the build directory to the S3 bucket. The --delete flag ensures the S3 bucket matches the local directory exactly by deleting files that are no longer present locally.
 
       - name: Invalidate Cloudfront
