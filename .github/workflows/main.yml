@@ -25,10 +25,10 @@ name: Configure AWS Credentials
         aws-region: 'us-east-1'
 
       
-name: Update S3 bucket with new site contents
-        run: aws s3 sync build/ s3://your-s3-bucket-name --delete
-      # This step syncs the contents of the local build directory to the S3 bucket. The --delete flag ensures the S3 bucket matches the local directory exactly by deleting files that are no longer present locally.
+- name: Update S3 bucket with new site contents
+        run: aws s3 sync build/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
+        # This step syncs the contents of the local build directory to the S3 bucket. The --delete flag ensures the S3 bucket matches the local directory exactly by deleting files that are no longer present locally.
 
-name: Invalidate Cloudfront
-      run: aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
-      # This step invalidates the CloudFront distribution to clear the cache and ensure that users see the updated content from the S3 bucket.
+      - name: Invalidate Cloudfront
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        # This step invalidates the CloudFront distribution to clear the cache and ensure that users see the updated content from the S3 bucket.
