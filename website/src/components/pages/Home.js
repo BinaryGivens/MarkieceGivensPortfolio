@@ -2,7 +2,6 @@ import React, {useRef} from 'react';
 
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import NextSection from '../NextSection';
 import Footer from '../Footer'
 
 function Home() {
@@ -16,7 +15,7 @@ function Home() {
     <>
       <HeroSection scrollToNext={scrollToFooter}/>
       <div ref={footerRef}>
-        <footer/>
+        <Footer/>
       </div>
     </>
   );

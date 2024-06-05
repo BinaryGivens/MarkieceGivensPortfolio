@@ -4,8 +4,6 @@ import Home from './components/pages/Home';
 import Aboutme from './components/pages/Aboutme';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
-import samplePDF from './Assets/markiece-givens-resume.pdf';
-import Particle from './components/Particle'
 
 
 import {BrowserRouter as Router, 
