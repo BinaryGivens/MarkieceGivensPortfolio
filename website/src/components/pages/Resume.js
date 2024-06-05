@@ -32,7 +32,7 @@ const Resume = ({ pdf = pdfFile }) => {
                     &nbsp;Download Resume
                 </Button>
                 <Document file={pdf} className="resume-pdf">
-                    <Page pageNumber={1} />
+                    <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}/>
                 </Document>
                 <Button
                     className='res-btn'
