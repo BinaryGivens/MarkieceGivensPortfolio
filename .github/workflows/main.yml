@@ -3,8 +3,7 @@ name: Build Portfolio
 on:
   push:
     branches:
-      
-main
+      - main
 
 jobs:
   Recursive_Build:
