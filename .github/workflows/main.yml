@@ -1,4 +1,4 @@
-name: Build Portfolio 
+name: Build Portfolio
 
 on:
   push:
@@ -23,9 +23,17 @@ jobs:
           aws-region: 'us-east-1'
         # This step configures the AWS credentials using secrets stored in GitHub. It allows the workflow to interact with AWS services.
 
+      - name: Install Dependencies
+        run: npm install
+        # This step installs the dependencies required for your project. Adjust according to your package manager and project.
+
+      - name: Build Project
+        run: npm run build
+        # This step runs the build script for your project. Adjust according to your build script.
+
       - name: Update S3 bucket with new site contents
         run: aws s3 sync build/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
-        # This step syncs the contents of the local build directory to the S3 bucket. The --delete flag ensures the S3 bucket matches the local directory exactly by deleting files that are no longer present locally.
+        # This step syncs the contents of the build directory to the S3 bucket. The --delete flag ensures the S3 bucket matches the local directory exactly by deleting files that are no longer present locally.
 
       - name: Invalidate Cloudfront
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
