@@ -50,7 +50,7 @@ function Aboutme() {
           </div>
         </div>
         <div className="about-photo">
-          <img src={aboutMarkiece} alt="photo of me" />
+          <img src={aboutMarkiece} alt=" me" />
         </div>
       </div>
     </>
