@@ -9,7 +9,7 @@ function HeroSection({ scrollToNext }) {
       autoPlay loop muted/> 
       <h1>Engineering is the closest thing to magic that exists
         in the world </h1>
-      <p>-Elon Musk</p>
+      <p>- Elon Musk</p>
       <div className="hero-btns">
         <Button 
           className='btns'
