@@ -15,13 +15,57 @@
   font-size: 3rem;
 }
 /* ABOUT ME SECTION */
-.aboutme{
-  background-image: url('../public/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.aboutme-container {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the container */
+  gap: -100px; /* Space between text and image */
+  padding: 50px; /* Optional: Add padding around the container */
+}
+
+.text-container {
+  flex: 1; /* Take up remaining space */
+  font-size: large;
+}
+
+.about-photo img {
+  max-width: 100%; /* Ensures the image fits within its container */
+  width: 300px; /* Adjust this value as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 50%;
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
+}
+
+.main-head {
+  padding-top: 2%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.header,
+.header2,
+.header3 {
+  display: block;
+  margin-left: 8%;
+  margin-right: 25%;
+}
+.header {
+  margin-left: 20%;
+}
+.header2{
+  margin-left: 7%;
+}
+.header-body,
+.header2-body,
+.header3-body {
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 /* RESUME SECTION */

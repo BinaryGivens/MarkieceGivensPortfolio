@@ -29,6 +29,10 @@
   padding: 8px 20px;
   font-size: 20px;
 }
+.btn--small {
+  padding: 4px 10px;
+  font-size: 1.2rem;
+}
 
 .btn--large { 
   padding: 12px 26px;
