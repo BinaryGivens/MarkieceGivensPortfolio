@@ -11,7 +11,7 @@ function Aboutme() {
       <div className="aboutme-container">
         <div className="text-container">
           <div className="header">
-              <h1>Meet Markiece Givens</h1>
+              <h1>Who am I?</h1>
           </div>
           <div className="header-body">
             <p>
@@ -31,21 +31,20 @@ function Aboutme() {
           <div className="header3-body">
             <p>
               As a hardworking and innovative individual, I thrive in positions where there is a lot to learn.
-              My eagerness to tackle problems and unknowns in my field as part of a team or 
+              My eagerness to tackle problems and unknowns in any field as part of a team or 
               independently will allow me to grow exponentially in any field regardless of my
               experience.
             </p>
           </div>
           <div className="header2">
-            <h2>Why should you consider adding me to your team?</h2>
+            <h2>Work Values</h2>
           </div>
           <div className="header2-body">
             <p>
-              My dedication and hard work is demonstrated by my ability 
-              to juggle full-time work, school, and a family while maintaining above a
-              3.0 GPA. Adding me to a team is a way to bring innovative and abstract ideas
-              to the table as my interdisciplinary education allows me to reference multiple
-              subject branches to reach conclusions.
+              I believe that hard-work, dedication and discipline are the stepping stones to success.
+              I apply these stepping stones to any work I set my mind to in order to be successful in all
+              endeavors. My dedication, hard-work and discipline are demonstrated by my ability to juggle 
+              full-time work, school, and a family while maintaining above a 3.0 GPA. 
             </p>
           </div>
         </div>
