@@ -21,7 +21,17 @@
   align-items: flex-start; /* Align items at the start of the container */
   gap: 5%; /* Space between text and image */
   padding: 5px; /* Optional: Add padding around the container */
-  margin: 5%;
+  margin: 3%;
+  flex-wrap: wrap;
+}
+.aboutme-container2 {
+  color:#fff;
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the container */
+  gap: 5%; /* Space between text and image */
+  padding: 5px; /* Optional: Add padding around the container */
+  margin: 3%;
+  flex-wrap: wrap;
 }
 .text-container {
   flex: 1; /* Take up remaining space */
@@ -29,16 +39,20 @@
 }
 
 .about-photo img {
-  max-width: 75%; /* Ensures the image fits within its container */
+  max-width: 60%; /* Ensures the image fits within its container */
   width: 600px; /* Adjust this value as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px; /* Optional: Adds rounded corners to the image */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+  margin-left: 40%;
 }
-
-.header,
-.header2,
-.header3 {
+h1 {
+  margin-bottom: 3%;
+}
+h1,h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +65,24 @@
   align-items: center;
   justify-content: center;
 
+}
+/* Media Queries for Responsive Layout */
+@media (max-width: 768px) {
+  .aboutme-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+  
+  .text-container {
+    width: 100%; /* Full width for text */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .about-photo img {
+    width: 100%; /* Full width for image */
+    max-width: 300px; /* Limit max width */
+    margin: 20px 0; /* Add margin for spacing */
+  }
 }
 
 
