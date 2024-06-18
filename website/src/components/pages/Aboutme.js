@@ -13,7 +13,7 @@ function Aboutme() {
           <div className="header">
               <h1>Meet Markiece Givens</h1>
           </div>
-          <div className="header-body">
+          <div>
             <p>
               I am a dedicated physicist, researcher, software developer, 
               autonomous vehicle tester, and father. I gained my experience as a researcher from
@@ -28,7 +28,7 @@ function Aboutme() {
           <div className="header3">
             <h2>Where do I thrive?</h2>
           </div>
-          <div className="header3-body">
+          <div>
             <p>
               As a hardworking and innovative individual, I thrive in positions where there is a lot to learn.
               My eagerness to tackle problems and unknowns in any field as part of a team or 
@@ -36,10 +36,10 @@ function Aboutme() {
               experience.
             </p>
           </div>
-          <div className="header2">
+          <div>
             <h2>Work Values</h2>
           </div>
-          <div className="header2-body">
+          <div>
             <p>
               I believe that hard-work, dedication and discipline are the stepping stones to success.
               I apply these stepping stones to any work I set my mind to in order to be successful in all
@@ -54,10 +54,13 @@ function Aboutme() {
       </div>
       <div className='aboutme-container2'>
         <Particle/>
-        <div className='Next section'>
-        <h2 className='header'>
-          Skills
-        </h2>
+        <div className='Next-section'>
+          <h2 className='header'>
+            Skills
+          </h2>
+          <p>
+            Throughout my learning journey I have picked up numerous skills from both my education and work experience
+          </p>
         </div>
       </div>
     </>
