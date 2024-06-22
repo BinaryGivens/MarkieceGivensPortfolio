@@ -19,19 +19,20 @@
   color:#fff;
   display: flex;
   align-items: flex-start; /* Align items at the start of the container */
-  gap: 5%; /* Space between text and image */
+  gap: 3%; /* Space between text and image */
   padding: 5px; /* Optional: Add padding around the container */
-  margin: 3%;
+  margin: 1%;
+  margin-bottom: 0%;
   flex-wrap: wrap;
 }
 .aboutme-container2 {
   color:#fff;
   display: flex;
   align-items: flex-start; /* Align items at the start of the container */
-  gap: 5%; /* Space between text and image */
-  padding: 5px; /* Optional: Add padding around the container */
-  margin: 3%;
   flex-wrap: wrap;
+}
+.firstContainerEnd {
+  margin-bottom: 0%;
 }
 .text-container {
   flex: 1; /* Take up remaining space */
@@ -46,10 +47,10 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
   align-items: center;
   justify-content: center;
-  margin-top: 7%;
+  margin-top: 5%;
   margin-left: 40%;
 }
-h1 {
+.header {
   margin-bottom: 3%;
 }
 .header,
@@ -57,16 +58,59 @@ h1 {
 .header3 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 .header-body,
 .header2-body,
-.header3-body {
+.header3-body,
+.coding-languages-header,
+.research-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
+}
+.coding-languages-header {
+  margin-bottom: 7%;
+}
+.coding-language-container {
+  padding: 5px;
+  margin-left: 10%;
+}
+.tech-icons {
+  font-size: 3em;
+  margin: 5px !important;
+  padding: 5px !important;
+  opacity: 0.93 !important;
+  border: 3px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 2px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+.tech-icons2 {
+  font-size: 1.5em;
+  margin: 5px !important;
+  padding: 5px !important;
+  opacity: 0.93 !important;
+  border: 3px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 2px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 /* Media Queries for Responsive Layout */
 @media (max-width: 768px) {
@@ -87,6 +131,9 @@ h1 {
   }
 }
 
+.research-container {
+  margin: 3%
+}
 
 /* RESUME SECTION */
 .resume-container {
