@@ -4,9 +4,7 @@ import {Button} from './Button';
 import './HeroSection.css';
 function HeroSection({ scrollToNext }) {
   return (
-    <div className='hero-container'>
-      <video src='/videos/video-2.mp4' 
-      autoPlay loop muted/> 
+    <div className='hero-container'> 
       <h1>Engineering is the closest thing to magic that exists
         in the world </h1>
       <p>- Elon Musk</p>

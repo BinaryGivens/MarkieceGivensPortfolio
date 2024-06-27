@@ -2,21 +2,25 @@ import React, {useRef} from 'react';
 
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import Footer from '../Footer'
+import Footer from '../Footer';
+import Cards from '../Cards';
+import Particle from '../Particle';
 
 function Home() {
-  const footerRef = useRef(null);
-  const scrollToFooter = () => {
-    if (footerRef.current) {
-      footerRef.current.scrollIntoView({behavior: 'smooth'});
+  const cardsRef = useRef(null);
+  const scrollToCards = () => {
+    if (cardsRef.current) {
+      cardsRef.current.scrollIntoView({behavior: 'smooth'});
     }
   };
   return (
     <>
-      <HeroSection scrollToNext={scrollToFooter}/>
-      <div ref={footerRef}>
-        <Footer/>
+      <Particle/>
+      <HeroSection scrollToNext={scrollToCards}/>
+      <div ref={cardsRef}>
+        <Cards/>
       </div>
+      <Footer/>
     </>
   );
 }
