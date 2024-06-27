@@ -5,21 +5,23 @@ import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Cards from '../Cards';
 import Particle from '../Particle';
+import HomePageInfo from '../HomePageInfo';
 
 function Home() {
-  const cardsRef = useRef(null);
-  const scrollToCards = () => {
-    if (cardsRef.current) {
-      cardsRef.current.scrollIntoView({behavior: 'smooth'});
+  const HomePageInfoRef = useRef(null);
+  const scrollToHomePageInfo= () => {
+    if (HomePageInfoRef.current) {
+      HomePageInfoRef.current.scrollIntoView({behavior: 'smooth'});
     }
   };
   return (
     <>
       <Particle/>
-      <HeroSection scrollToNext={scrollToCards}/>
-      <div ref={cardsRef}>
-        <Cards/>
+      <HeroSection scrollToNext={scrollToHomePageInfo}/>
+      <div ref={HomePageInfoRef}>
+        <HomePageInfo/>
       </div>
+      <Cards/>
       <Footer/>
     </>
   );

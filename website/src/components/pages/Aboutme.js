@@ -32,6 +32,7 @@ function Aboutme() {
             <p>
               I attended the University of Nevada, Las Vegas where I completed 159 undergraduate
               credits to achieve a dual-degree in Physics and Computer Science with a 3.19 GPA.
+               Starting August 2024 I will be pursuing a M.S in CS at UNLV.
             </p>
           </div>
           <div>

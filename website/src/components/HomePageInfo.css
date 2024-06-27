@@ -1,0 +1,21 @@
+h1 {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 3%;
+}
+p {
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 3%;
+}
+/* styles.css */
+.home-page-header {
+    display: flex;
+    flex-direction: column; /* Stack headers vertically */
+    align-items: left; /* Center align */
+}
+
