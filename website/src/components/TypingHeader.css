@@ -1,0 +1,17 @@
+/* src/TypingHeader.css */
+.typed-header {
+    font-size: 2.5em;
+    color: #ffff;
+    white-space: pre-line; /* This will respect line breaks */
+    overflow: hidden;
+    border-right: .15em solid #333;
+}
+
+.cursor {
+    animation: blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #333; }
+}
