@@ -7,7 +7,6 @@ function HomePageInfo() {
     return (
         <div className='HomePageContainer'>
             <div className='home-page-header'>
-                <h1 class="header"></h1>
                 <TypingHeader text="Greetings, <br/> My name is Markiece Givens " />
             </div>
             <p className='home-page-body'>
