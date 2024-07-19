@@ -10,7 +10,7 @@
                 <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;www.markiecegivens.com&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="24" y="386" width="141" height="28" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ffffff&quot;&gt;Route53&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="4" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 12px;&quot;&gt;Route53&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="262.25" y="433.5" width="60" height="29" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Amazon S3 Bucket&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
