@@ -18,6 +18,9 @@
   font-size: 3rem;
 }
 /* ABOUT ME SECTION */
+p3 {
+  font-size: 1.3rem;
+}
 .aboutme-container {
   color:#fff;
   display: flex;
@@ -67,10 +70,14 @@
 .header3 {
   margin-right: 5%;
   justify-content: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 .header2 {
   margin-right: 10%;
   justify-content: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 .header-body,
 .header2-body,
@@ -81,6 +88,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5%;
 
 }
 .coding-languages-header {
@@ -200,72 +208,39 @@
 }
 
 .contact-box {
-  background: #756f9e;
+  background: #2d80d3;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Change to row to align items horizontally */
   align-items: center;
   margin-top: 20px;
 }
-.contactme-header {
-  color: #fff;
+
+.contact-photo {
+  width: 200px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 20%; /* Adjust border radius as needed */
+  margin-right: 5%; /* Add some spacing */
+  margin-left: 5%;
+
 }
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start */
+  justify-content: center;
+}
+
 .contact-details {
-  text-align: left;
-  margin-bottom: 20px;
+  text-align: left; /* Align the text to the left */
 }
 
-.contact-details p {
-  margin: 5px 0;
-}
 
-.contact-form {
-  width: 100%;
-}
-
-.form-group {
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.form-group input {
-  height: 40px;
-}
-
-.form-group textarea {
-  height: 100px;
-  resize: vertical;
-}
-
-button[type="submit"] {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {

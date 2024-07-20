@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import Button from 'react-bootstrap/Button';
 import Particle from '../Particle'; // Assuming you have a Particle component
-import pdfFile from '../../Assets/../Assets/markiece-givens-resume.pdf'; // Assuming this is the correct path to your PDF file
+import pdfFile from '../../Assets/../Assets/Markiece_Givens_Resume.pdf'; // Assuming this is the correct path to your PDF file
 import { AiOutlineDownload } from 'react-icons/ai';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
@@ -17,9 +17,6 @@ const Resume = ({ pdf = pdfFile }) => {
     return (
         <>
             <div className="resume-container">
-                <div className='resume-desc'>
-                    <h>This is my resume. Feel free to download it</h>
-                </div>
                 <Particle/>
                 <Button
                     className='res-btn'
