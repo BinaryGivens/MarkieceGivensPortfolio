@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Particle from '../Particle';
-import myPhoto from '../../Assets/ContactPhoto.JPEG'; // Update this path as needed
+import myPhoto from '../../Assets/MarkieceFinal_3_Original.JPEG'; // Update this path as needed
 import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
