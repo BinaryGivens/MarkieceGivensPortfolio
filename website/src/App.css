@@ -198,7 +198,9 @@ p3 {
 }
 
 /* CONTACT SECTION */
-/* Contact Section */
+.contactme-header {
+  font-size: 4rem;
+}
 .contact-container {
   padding: 40px;
   text-align: center;
@@ -212,38 +214,40 @@ p3 {
   padding: 3%;
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 70%;
+  max-width: 68%;
   width: 100%;
-  display: flex;
+  display:flex;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .contact-photo {
   width: 200px; /* Adjust the size as needed */
   height: auto;
-  border-radius: 20%; /* Adjust border radius as needed */
-  margin-right: 5%; /* Add some spacing */
+  border-radius: 60%; /* Adjust border radius as needed */
+  margin-right: 8%; /* Add some spacing */
   margin-left: 5%;
-
 }
 
 .contact-content {
-  display: flex;
+  display:contents;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the start */
+  align-items: right; /* Align items to the start */
   justify-content: center;
 }
 
 .contact-details {
   text-align: left; /* Align the text to the left */
   color: #fff;
-  font-size: 1rem;
-  justify-content: left;
-  align-items: left;
-  display: flex;
-  margin-top: 2%;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  display:grid;
   margin-bottom: 1%;
+  margin-right: 2%;
+}
+p4 {
+  margin: 3%
 }
 
 
