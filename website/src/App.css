@@ -209,15 +209,14 @@ p3 {
 
 .contact-box {
   background: #2d80d3;
-  padding: 20px;
+  padding: 3%;
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
+  max-width: 70%;
   width: 100%;
   display: flex;
-  flex-direction: row; /* Change to row to align items horizontally */
   align-items: center;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 .contact-photo {
@@ -238,24 +237,32 @@ p3 {
 
 .contact-details {
   text-align: left; /* Align the text to the left */
+  color: #fff;
+  font-size: 1rem;
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .contact-photo {
+    width: 100px; /* Reduce the size of the photo */
+    margin-right: 10px; /* Adjust spacing */
+  }
+
   .contact-box {
-    padding: 15px;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
   }
 
-  .form-group input,
-  .form-group textarea {
-    font-size: 14px;
-  }
-
-  button[type="submit"] {
-    width: 100%;
+  .contact-content {
+    align-items: center; /* Center align content on smaller screens */
+    text-align: center; /* Center text alignment */
   }
 }
-
-

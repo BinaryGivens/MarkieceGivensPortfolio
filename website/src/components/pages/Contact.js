@@ -11,10 +11,10 @@ function Contact() {
       <div className="contact-box">
         <img src={myPhoto} alt="Me" className="contact-photo" />
         <div className="contact-details">
-          <p><strong>Email:</strong> markiecegivens@outlook.com</p>
-          <p><strong>Phone:</strong> 7029636636</p>
-          <p><strong>Location:</strong> Las Vegas, NV</p>
-          <p><strong>Willing to relocate?</strong> Anywhere</p>
+          <p4><strong>Email:</strong> markiecegivens@outlook.com</p4>
+          <p4><strong>Phone:</strong> 7029636636</p4>
+          <p4><strong>Location:</strong> Las Vegas, NV</p4>
+          <p4><strong>Willing to relocate?</strong> Anywhere</p4>
         </div>
       </div>
     </div>
