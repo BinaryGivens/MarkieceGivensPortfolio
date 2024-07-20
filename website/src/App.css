@@ -4,6 +4,9 @@
   padding: 0;
   font-family: 'PT Sans', sans-serif;
 }
+.highlight {
+  color: #2d80d3; /* Highlight color */
+}
 .home,
 .aboutme,
 .resume,
@@ -19,7 +22,7 @@
   color:#fff;
   display: flex;
   align-items: flex-start; /* Align items at the start of the container */
-  gap: 3%; /* Space between text and image */
+  gap: 2%; /* Space between text and image */
   padding: 5px; /* Optional: Add padding around the container */
   margin: 1%;
   margin-bottom: 0%;
@@ -48,10 +51,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 5%;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 .header {
   margin-bottom: 3%;
+  margin-left: 3%;
 }
 .header,
 .header2,
@@ -59,6 +63,14 @@
   display: flex;
   align-items: center;
   justify-content: left;
+}
+.header3 {
+  margin-right: 5%;
+  justify-content: center;
+}
+.header2 {
+  margin-right: 10%;
+  justify-content: center;
 }
 .header-body,
 .header2-body,

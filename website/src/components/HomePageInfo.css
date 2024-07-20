@@ -1,16 +1,21 @@
+
 h1 {
     color: #fff;
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    margin: 3%;
+    margin: 10%;
+    margin-bottom: 3%;
 }
 p {
     color:#fff;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    margin: 3%;
+    margin: 10%;
+    margin-bottom: 3%;
+
+
 }
 
 .home-page-header {

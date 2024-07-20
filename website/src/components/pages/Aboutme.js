@@ -11,18 +11,18 @@ function Aboutme() {
         <Particle/>
         <div className="text-container">
           <div className="header">
-              <h1>Meet Markiece Givens</h1>
+              <h1>Meet <span className='highlight'>Markiece Givens</span></h1>
           </div>
           <div>
             <p>
-              I am a dedicated physicist, researcher, software developer, 
-              autonomous vehicle tester, and father. I gained my experience as a researcher from
-              the University of Nevada, Las Vegas where I researched astrophysical outflows
-              as well as 3D materials in low dimensional devices. After gaining 3 years of experience as a
+              I am a dedicated <span className='highlight'>Physicist</span>, <span className='highlight'>Researcher</span>, <span className='highlight'>Software Developer</span>, <span className='highlight'>Autonomous Vehicle Tester</span>, and
+              father. I gained my experience as a researcher from
+              the University of Nevada, Las Vegas where I researched <span className='highlight'>astrophysical outflows</span> as 
+              well as <span className='highlight'>3D materials</span> in low dimensional devices. After gaining 3 years of experience as a
               researcher, I moved on to Autonomous vehicle testing. Since starting AV testing
               in 2022, I was introduced to an encapsulating industry where I gained first hand
-              experience in JIRA, deploying software, working 1 on 1 with engineers to solve ongoing software issues
-              and troubleshooting AV software in Linux.
+              experience in <span className='highlight'>JIRA</span>, <span className='highlight'>deploying software</span>, working 1 on 1 with engineers to solve ongoing software issues
+              and <span className='highlight'>troubleshooting</span> AV software in <span className='highlight'>Linux</span>.
             </p>
           </div>
           <div className="header3">
@@ -32,10 +32,10 @@ function Aboutme() {
             <p>
               I attended the University of Nevada, Las Vegas where I completed 159 undergraduate
               credits to achieve a dual-degree in Physics and Computer Science with a 3.19 GPA.
-               Starting August 2024 I will be pursuing a M.S in CS at UNLV.
+               Starting August 2024 I will be pursuing a <span className='highlight'>Masters of Science</span> in CS at UNLV.
             </p>
           </div>
-          <div>
+          <div className='header2'>
             <h2>Work Values</h2>
           </div>
           <div>

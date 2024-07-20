@@ -1,25 +1,37 @@
 import React from 'react';
-import {Button} from './Button'
-
+import './Footer.css';
+import { AiFillGithub } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 function Footer() {
   return (
     <div className='footer-container'>
       <section className="footer-description">
-        <p className="footer-description-heading">
-          Reach out to me if you believe I would be a good addition
-          to your team.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              type='email'
-              name='email'
-              placeholder='Your Email'
-              className='footer-input'
-            />
-            <Button buttonStyle='btn--outline'> Subscribe</Button>
-          </form>
-        </div>
+        <h3 className="footer-description-heading">
+          <span className='highlight'>Connect</span>
+        </h3>
+        <p1 className="footer-description-paragraph">
+          Feel free to reach out to me
+        </p1>
+        <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/BinaryGivens"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons">
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/markiece-givens/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons">
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
       </section>
     </div>
   );

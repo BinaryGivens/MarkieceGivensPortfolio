@@ -1,0 +1,40 @@
+.footer-container { 
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-description-heading {
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    font-size: 3.5rem;
+}
+.footer-description-paragraph {
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.home-about-social-links {
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Aligns list items side by side */
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Removes default padding */
+  }
+  
+.social-icons {
+    margin-right: 10%; /* Optional: Adds some space between icons */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5%;
+}
+
+.icon-colour {
+    color: #2d80d3; /* Change the color as needed */
+    font-size: 3.5rem;
+}
+  
