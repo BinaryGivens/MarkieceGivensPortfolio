@@ -263,6 +263,7 @@ p4 {
   .contact-box {
     flex-direction: column; /* Stack items vertically on smaller screens */
     align-items: center;
+    max-width: 80%;
   }
 
   .contact-content {
