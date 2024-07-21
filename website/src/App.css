@@ -214,7 +214,7 @@ p3 {
   padding: 3%;
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 76%;
+  max-width: 80%;
   width: 100%;
   display:flex;
   align-items: center;
@@ -222,7 +222,7 @@ p3 {
 }
 
 .contact-photo {
-  width: 200px; /* Adjust the size as needed */
+  width: 225px; /* Adjust the size as needed */
   height: auto;
   border-radius: 60%; /* Adjust border radius as needed */
   margin-right: 8%; /* Add some spacing */
@@ -239,7 +239,7 @@ p3 {
 .contact-details {
   text-align: left; /* Align the text to the left */
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   justify-content: center;
   align-items: center;
   display:grid;
@@ -247,7 +247,7 @@ p3 {
   margin-right: 2%;
 }
 p4 {
-  margin: 3%
+  margin: 5%
 }
 
 
@@ -256,7 +256,7 @@ p4 {
 /* Media query for smaller screens */
 @media (max-width: 600px) {
   .contact-photo {
-    width: 100px; /* Reduce the size of the photo */
+    width: 200px; /* Reduce the size of the photo */
     margin-right: 10px; /* Adjust spacing */
   }
 
@@ -268,5 +268,13 @@ p4 {
   .contact-content {
     align-items: center; /* Center align content on smaller screens */
     text-align: center; /* Center text alignment */
+  }
+  .contact-details {
+    text-align: left; /* Align the text to the left */
+    color: #fff;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    display:grid;
   }
 }
