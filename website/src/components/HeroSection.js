@@ -5,8 +5,8 @@ import './HeroSection.css';
 function HeroSection({ scrollToNext }) {
   return (
     <div className='hero-container'> 
-      <h1>Engineering is the closest thing to magic that exists
-        in the world </h1>
+      <h5>Engineering is the closest thing to magic that exists
+        in the world </h5>
       <p>- Elon Musk</p>
       <div className="hero-btns">
         <Button 

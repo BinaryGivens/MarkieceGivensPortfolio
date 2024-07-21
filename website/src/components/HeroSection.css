@@ -8,9 +8,6 @@ video {
 
 
 .hero-container { 
-
-  /*background: url('../../public/images/img-home.jpg') center center/cover
-  no-repeat;*/
   height: 100vh;
   width: 100%;
   display: flex;
@@ -19,12 +16,11 @@ video {
   box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);
   object-fit: contain;
 }
-.hero-container > h1 {
+.hero-container > h5 {
   color: #fff;
-  margin-left: 3%;
-  margin-top: 3%;
+  margin: 10%;
   margin-bottom: 3%;
-  font-size: 30;
+  font-size: 2.5rem;
 }
 
 .hero-container > p {
