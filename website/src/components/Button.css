@@ -38,9 +38,12 @@
   padding: 12px 26px;
   font-size: 20px;
 }
-.btn--medium:hover, 
-.btn--large:hover {
-  background-color: #fff;
+.btn--medium:hover,
+.btn--large:hover,
+.btn--outline:hover,
+.btn--small:hover {
+  background-color: #ffffff;
   color: #242424;
   transition: all 0.3s ease-out;
 }
+

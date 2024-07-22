@@ -22,7 +22,7 @@ function Aboutme() {
               researcher, I moved on to <span className='highlight'>autonomous vehicle testing</span>. Since starting AV testing
               in 2022, I was introduced to an encapsulating industry where I gained hands-on
               experience in <span className='highlight'>JIRA</span>, <span className='highlight'>deploying software branches</span>, working 1 on 1 with engineers to solve ongoing software issues
-              and git AV software in <span className='highlight'>Linux</span>.
+              and <span className='highlight'>troubleshoot</span> AV software in <span className='highlight'>Linux</span>.
             </p3>
           </div>
           <div className="header3">

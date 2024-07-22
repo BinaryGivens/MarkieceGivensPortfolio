@@ -28,7 +28,7 @@ function Particle() {
               color: "#000000"
             },
             polygon: {
-              nb_sides: 5
+              nb_sides: 4
             },
             image: {
               src: "images/github.svg",
@@ -47,7 +47,7 @@ function Particle() {
             }
           },
           size: {
-            value: 30,
+            value: 20,
             random: true,
             anim: {
               enable: true,
@@ -61,7 +61,7 @@ function Particle() {
             distance: 100,
             color: "#ffffff",
             opacity: 1,
-            width: 1
+            width: 2
           },
           move: {
             enable: true,

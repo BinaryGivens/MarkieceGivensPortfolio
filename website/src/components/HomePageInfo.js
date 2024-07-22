@@ -15,7 +15,7 @@ function HomePageInfo() {
                 across multiple professions.
             </p>
             <div className='home-page-header2'>
-                <h1 class="home-header">More About Me</h1>
+                <h1 class="home-header">More About <span className='highlight'>Me</span></h1>
             </div>
             <p className='home-page-body'>
                 I started college as a physics major and 
