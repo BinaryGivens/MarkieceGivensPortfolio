@@ -226,7 +226,7 @@ p3 {
   height: auto;
   border-radius: 60%; /* Adjust border radius as needed */
   margin-right: 8%; /* Add some spacing */
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 .contact-content {
@@ -247,7 +247,9 @@ p3 {
   margin-right: 2%;
 }
 p4 {
-  margin: 3%
+  margin: 3%;
+  margin-left: 2%;
+
 }
 
 
