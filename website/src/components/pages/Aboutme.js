@@ -55,29 +55,12 @@ function Aboutme() {
         <Particle/>
         <div className='coding-language-container'>
           <h3 className='coding-languages-header' style={{fontSize: '3.5em'}}>
-            Coding Languages I know
+            Skills and Applications
           </h3>
-          <CodingStack />
-        </div>
-        {/* <div className='coding-language-container'>
-          <h3 className='coding-languages-header' style={{fontSize: '3.5em'}}>
-            Data Analyst Processes I know
-          </h3>
-          <DataStack />
-        </div>
-        <div className='research-container'>
-          <h3 className='research-header' style={{fontSize: '3.5em'}}>
-            What do I know about research?
-          </h3>
-          <p className='research'>
-            in my experience as a researcher at the University of Nevada, Las Vegas
-            I would focus on tasks given to me and in weekly meetings I would summarize
-            my findings and prepare presenations with visualizations on my progress. In my time as
-            a researcher at UNLV I learned how to collaborate with others as well as present findings
-            to a team of scientists. I also learned how to work independently but also how to work as a 
-            team to tackle difficult problems to come up with innovative solutions.
+          <p>Python:
+            
           </p>
-        </div> */}
+        </div> 
       </div>
     </>
   );
