@@ -52,14 +52,14 @@ function Aboutme() {
       </div>
       <div className='aboutme-container2'>
         <Particle/>
-        <div className='coding-language-container'>
+        {/* <div className='coding-language-container'>
           <h3 className='coding-languages-header' style={{fontSize: '3.5em'}}>
             Skills and Applications
           </h3>
           <p>Python:
             
           </p>
-        </div> 
+        </div>  */}
       </div>
     </>
   );
