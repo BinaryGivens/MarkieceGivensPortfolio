@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import aboutMarkiece from '../../Assets/about-markiece.JPEG';
-import Particle from '../Particle'; // Assuming you have a Particle component
+import Particle from '../Particle';
 
 function Aboutme() { 
   return (

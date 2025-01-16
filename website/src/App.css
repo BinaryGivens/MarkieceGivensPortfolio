@@ -99,28 +99,30 @@ p3 {
   margin-left: 10%;
 }
 .tech-icons {
-  font-size: 3em;
-  margin: 5px !important;
+  font-size: 1.5em;
+  margin: 6px !important;
+  margin-right:35px !important;
   padding: 5px !important;
   opacity: 0.93 !important;
-  border: 3px solid rgba(200, 137, 230, 0.637) !important;
+  border: 3px solid #2d80d3 !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 2px !important;
+  border-radius: 100px !important;
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  color: white;
 }
 .tech-icons2 {
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 5px !important;
   padding: 5px !important;
   opacity: 0.93 !important;
-  border: 3px solid rgba(200, 137, 230, 0.637) !important;
+  border: 3px solid #2d80d3 !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 2px !important;
+  border-radius: 100px !important;
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;

@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 
 function CodingStack() {
   return (
-    <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
+    <Row style={{ justifyContent: 'center', paddingBottom: '25px' }}>
       <Col xs={4} md={2} className="tech-icons">
         C++
       </Col>

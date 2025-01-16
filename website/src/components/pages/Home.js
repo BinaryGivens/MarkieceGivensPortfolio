@@ -7,6 +7,7 @@ import Cards from '../Cards';
 import Particle from '../Particle';
 import HomePageInfo from '../HomePageInfo';
 
+
 function Home() {
   const HomePageInfoRef = useRef(null);
   const scrollToHomePageInfo= () => {
