@@ -4,6 +4,7 @@ import Home from './components/pages/Home';
 import Aboutme from './components/pages/Aboutme';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
+import Projects from './components/pages/Projects';
 
 
 import {BrowserRouter as Router, 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/resume' exact element={<Resume/>}/>
           <Route path='/aboutme' exact element={<Aboutme/>}/>
           <Route path='/contact' exact element={<Contact/>}/>
+          <Route path='/projects' exact element={<Projects/>}/>
         </Routes>
       </Router>
     </>
