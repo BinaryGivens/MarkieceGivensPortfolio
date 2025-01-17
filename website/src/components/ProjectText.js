@@ -4,7 +4,7 @@ import React from 'react';
 function ProjectText() {
     return(
       <>
-        <p> hi </p>
+        <h1 className='project-summary'> My Project Summary </h1>
       </>
 
 

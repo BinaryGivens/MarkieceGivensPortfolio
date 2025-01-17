@@ -7,16 +7,16 @@ function HomePageInfo() {
     return (
         <div className='HomePageContainer'>
             <div className='home-page-header'>
-                <TypingHeader text="Greetings, <br/> My name is Markiece Givens " />
+                <TypingHeader text="Name: Markiece, Occupation: Magician" />
             </div>
             <p className='home-page-body'>
-                I am a <span className='highlight'>Scientific Researcher</span> and <span className='highlight'> AI/ML Engineer Engineer </span> 
+                I am a <span className='highlight'>Scientific Researcher</span> and <span className='highlight'> AI/ML Engineer </span> 
                 with experience in many popular coding languages such as 
             </p> 
             <CodingStack/>
             <p className='home-page-body'>
-                I am currently pursuing a <span className='highlight'>M.S</span> in <span className='highlight'>Computer Science</span>  and have already achieced a dual-degree in 
-                <span className='highlight'>Computer Science</span> and <span className='highlight'>Physics</span>.
+                I am currently pursuing a <span className='highlight'>M.S</span> in <span className='highlight'>Computer Science</span>  and have already achieved a dual-degree in 
+                <span className='highlight'> Computer Science</span> and <span className='highlight'>Physics</span>.
                 With my education and work experience, I am ready to tackle a wide variety of problems
                 across multiple professions.
             </p>

@@ -19,7 +19,7 @@ const TypingHeader = ({ text, speed = 100, delay = 2000 }) => {
             } else {
                 timeout = setTimeout(() => {
                     setIndex(0);
-                    setDisplayedText(prev => prev + '\n');
+                    setDisplayedText(prev => prev);
                     setLineIndex(prev => prev + 1);
                 }, speed);
             }
