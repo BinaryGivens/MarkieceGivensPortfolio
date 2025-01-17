@@ -1,0 +1,28 @@
+* {
+  color: white;
+}
+.project-summary-header {
+  font-size: 3rem;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.project-summary-text {
+  font-size: 1.8rem;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.project-heading {
+  font-size: 2.5rem;
+  margin: 3%;
+  color: #2d80d3; 
+}
+.project-body {
+  font-size: 2rem;
+  margin-left: 4%;
+  margin-bottom: 1%;
+  margin-right: 10%;
+}
