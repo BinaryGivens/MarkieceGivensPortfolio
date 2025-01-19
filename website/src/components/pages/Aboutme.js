@@ -38,7 +38,7 @@ function Aboutme() {
             </p3>
           </div>
           <div className='header2'>
-            <h2>Work Values</h2>
+            <h2 className= 'headers2'>Work Values</h2>
           </div>
           <div>
             <p3 className='firstContainerEnd'>

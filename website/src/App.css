@@ -58,7 +58,7 @@ p3 {
 }
 .header {
   margin-bottom: 3%;
-  margin-left: 3%;
+  margin-left: 25%;
 }
 .header,
 .header2,
@@ -139,6 +139,17 @@ p3 {
   .aboutme-container {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items */
+  }
+  p3 {
+    font-size: 1rem;
+
+  }
+  h2 {
+    font-size: 2rem;
+    margin-left: 10%;
+  }
+  .header {
+    margin-left: 2%;
   }
   
   .text-container {

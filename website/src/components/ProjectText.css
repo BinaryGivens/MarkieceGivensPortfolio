@@ -18,11 +18,43 @@
 .project-heading {
   font-size: 2.5rem;
   margin: 3%;
+  margin-left: 5%;
   color: #2d80d3; 
 }
 .project-body {
   font-size: 2rem;
-  margin-left: 4%;
+  margin-left: 8%;
   margin-bottom: 1%;
   margin-right: 10%;
+  font-weight: bold;
+  
+}
+
+@media screen and (max-width: 960px) {
+  .project-summary-header {
+    font-size: 2rem;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+
+  .project-summary-text {
+    font-size: 1rem;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .project-heading {
+    font-size: 1.5rem;
+    margin: 3%;
+    margin-left: 10%;
+    color: #2d80d3; 
+  }
+  .project-body {
+    font-size: 1rem;
+    margin-left: 15%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    font-weight: bold;
+  }
 }
