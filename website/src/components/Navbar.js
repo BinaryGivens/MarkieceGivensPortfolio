@@ -44,9 +44,14 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Resume' className='nav-links' onClick={closeMobileMenu}>
+              <a
+                href = "./Markiece_Givens_Master_Resume.pdf"
+                target= "_blank"
+                rel="noopener noreferrer"
+                style={{color: 'white'}}
+              >
                 Resume
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
               <Link to='/Projects' className='nav-links' onClick={closeMobileMenu}>
